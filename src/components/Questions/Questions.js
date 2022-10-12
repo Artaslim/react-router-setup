@@ -22,7 +22,7 @@ const Questions = ({ question }) => {
     <div>
       <div className="w-3/4 m-auto flex justify-center">
         <div>
-          <p className="m-7 text-lg font.medium border-solid border-2 bg-orange-400">
+          <p className="m-7 p-4 text-lg font.medium border-solid border-2 bg-orange-400">
             {question.question.slice(3, -4)},
           </p>
           {options.map((option) => (

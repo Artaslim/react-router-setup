@@ -6,9 +6,9 @@ const Header = () => {
     <div className="bg-orange-400">
       <nav className="flex justify-evenly items-center p-4 ">
         <div>
-          <h2>Quiz App</h2>
+          <h2 className="text-2xl font-bold  ">Quiz App</h2>
         </div>
-        <div className="md:flex space-x-6">
+        <div className="md:flex space-x-6 font-semibold">
           <Link to="/topics">Topics</Link>
           <Link to="/">Home</Link>
 

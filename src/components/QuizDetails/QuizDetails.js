@@ -9,7 +9,7 @@ const QuizDetails = () => {
 
   return (
     <div>
-      <h2 className="p-4 text-2xl font-bold text-orange-800 ">
+      <h2 className="p-4  text-2xl font-bold text-orange-800 ">
         Quiz-of: {name}
       </h2>
       {questions.map((question) => (
