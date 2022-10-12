@@ -11,7 +11,6 @@ const Header = () => {
         <div className="md:flex space-x-6 font-semibold">
           <Link to="/topics">Topics</Link>
           <Link to="/">Home</Link>
-
           <Link to="/blog">Blog</Link>
           <Link to="/statistics">Statistics</Link>
         </div>
