@@ -11,7 +11,7 @@ const Topic = ({ topic }) => {
 
           <p>Total:{total}</p>
           <h2>
-            <button className="border-solid border-2 border-indigo-500 p-2 mb-2 mt-2">
+            <button className="border-solid border-2 border-indigo-600 p-2 mb-2 mt-2">
               <Link to={`/topic/${id}`}>{name}</Link>
             </button>
           </h2>

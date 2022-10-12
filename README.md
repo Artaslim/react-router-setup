@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Project-summary:
 Project name:react-router-ass
-Project Link-https://enchanting-croquembouche-474cca.netlify.app
+Project Link-https://enchanting-croquembouche-474cca.netlify.app/
 Projec-Description:
 1.install-react-router:npm I react-router-dom
 2.Create a router using craterBrowserRouter
