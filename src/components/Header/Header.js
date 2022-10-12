@@ -9,11 +9,11 @@ const Header = () => {
           <h2>Quiz App</h2>
         </div>
         <div className="md:flex space-x-6">
+          <Link to="/topics">Topics</Link>
           <Link to="/">Home</Link>
 
           <Link to="/blog">Blog</Link>
           <Link to="/statistics">Statistics</Link>
-          <Link to="/topics">Topics</Link>
         </div>
       </nav>
     </div>

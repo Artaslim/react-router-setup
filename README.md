@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Project-summary:
+Project name:react-router-ass
+Project Link-https://enchanting-croquembouche-474cca.netlify.app
+Projec-Description:
+1.install-react-router:npm I react-router-dom
+2.Create a router using craterBrowserRouter
+3.Add RouterProvider and set router prop
+4.Create a lot of component for the project purpose
+5.Create main layout with some common part and some changing part based on the router
+6.Set main layout at the root of the router
+7.Set children routes
+8.Set link on the header components
+9.Load the api for creating cart
+9.Click on the cart get different question pattern 10. Show the correct answer using toast 11. Creat Rechart using api data 12. Create blog using accordion

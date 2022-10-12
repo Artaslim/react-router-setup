@@ -14,34 +14,31 @@ const Questions = ({ question }) => {
       toast("false !");
     }
   };
-  const eyeHandle = (id) => {
-    if (id === correctAnswer) {
-      console.log(id);
-    }
+  const eyeClick = () => {
+    toast(`${correctAnswer}`);
   };
 
   return (
-    <div className="w-3/4 m-auto">
-      <div>
-        <p className="m-7 text-lg font.medium border-solid border-2 bg-orange-400">
-          {question.question.slice(3, -4)},
-        </p>
-        {options.map((option) => (
-          <button
-            className="block w-10/12 mx-auto m-3 rounded p-4 bg-blue-500 text-white font-semibold text-lg hover:bg-blue-800"
-            onClick={() => validation(option)}
-          >
-            {option}
-          </button>
-        ))}
+    <div>
+      <div className="w-3/4 m-auto flex justify-center">
+        <div>
+          <p className="m-7 text-lg font.medium border-solid border-2 bg-orange-400">
+            {question.question.slice(3, -4)},
+          </p>
+          {options.map((option) => (
+            <button
+              className="block w-10/12 mx-auto m-3 rounded p-4 bg-blue-500 text-white font-semibold text-lg hover:bg-blue-800"
+              onClick={() => validation(option)}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+        <div onClick={eyeClick}>
+          <EyeIcon className="h-6 w-6 text-blue-500 ml-auto" />
+        </div>
+        <ToastContainer />
       </div>
-      <div>
-        <EyeIcon
-          onClick={() => eyeHandle(id)}
-          className="h-6 w-6 text-blue-500 ml-auto"
-        />
-      </div>
-      <ToastContainer />
     </div>
   );
 };
