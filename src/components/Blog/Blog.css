@@ -1,0 +1,28 @@
+summary {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: rgb(255, 115, 0);
+  padding: 10px;
+  margin-bottom: 1rem;
+  outline: none;
+  border: 2px solid rgb(102, 69, 9);
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}

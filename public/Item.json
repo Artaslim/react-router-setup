@@ -1,0 +1,7 @@
+{
+  "id": "124e13b9-2d54-4b2f-a74d-a77b362d6eag",
+  "name": "Reacate Router Website",
+  "age": 17,
+  "P": "A tool that allows you to handle routes in a web app, using dynamic routing. Dynamic routing takes place as the app is rendering on your machine, unlike the old routing architecture where the routing is handled in a configuration outside of a running app. React router implements a component-based approach to routing.",
+  "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGlsbHVzdGF0b3IlMjBsZWFybmluZyUyMHRlY2hub2xvZ3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+}
